@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.2/Umlnotation" xmi:id="_0AQ64CNEEd62GYqEihjouA" type="Class" name="LiTestTester - Overview.dnx">
+  <eAnnotations xmi:id="_0ARh8CNEEd62GYqEihjouA" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_0ASJACNEEd62GYqEihjouA" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:id="_6qglUCNEEd62GYqEihjouA" type="Text">
+    <children xmi:id="_6qglUSNEEd62GYqEihjouA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:id="_6qglUiNEEd62GYqEihjouA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_6qglUyNEEd62GYqEihjouA" fontColor="10485760" fontName="Comic Sans MS" fontHeight="12" bold="true" description="LiTestTester - Overview"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6qglVCNEEd62GYqEihjouA" x="396" y="396"/>
+  </children>
+  <children xmi:id="_Anh9YCNFEd62GYqEihjouA">
+    <children xmi:id="_Anx1ACNFEd62GYqEihjouA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_Anx1ASNFEd62GYqEihjouA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_AoMEsCNFEd62GYqEihjouA" type="Stereotype"/>
+    <children xmi:id="_AoPvECNFEd62GYqEihjouA" type="Name"/>
+    <children xmi:id="_AoQWICNFEd62GYqEihjouA" type="Parent"/>
+    <children xmi:id="_AoSyYCNFEd62GYqEihjouA" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_AoSyYSNFEd62GYqEihjouA"/>
+    </children>
+    <children xmi:id="_AqLBsCNFEd62GYqEihjouA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <children xmi:id="_A0s2sCNFEd62GYqEihjouA" type="ATTRIBUTE_ITEM">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_A0s2sSNFEd62GYqEihjouA" collapsed="true"/>
+        <element xmi:type="uml:Property" href="mmi:///#jfield%5Ename=COMPILER_OPTIONS%5Bjsrctype%5Ename=LiTestTester%5Bjcu%5Ename=LiTestTester.java%5Bjpack%5Ename=hu.itkodex.litest.fitnesse.testcase.domain%5Bjsrcroot%5Esrcfolder=AcceptanceTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Property"/>
+      </children>
+      <children xmi:id="_A0whECNFEd62GYqEihjouA" type="ATTRIBUTE_ITEM">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_A0whESNFEd62GYqEihjouA"/>
+        <element xmi:type="uml:Property" href="mmi:///#jfield%5Ename=fixtureCompiler%5Bjsrctype%5Ename=LiTestTester%5Bjcu%5Ename=LiTestTester.java%5Bjpack%5Ename=hu.itkodex.litest.fitnesse.testcase.domain%5Bjsrcroot%5Esrcfolder=AcceptanceTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Property"/>
+      </children>
+      <children xmi:id="_A0zkYCNFEd62GYqEihjouA" type="ATTRIBUTE_ITEM">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_A0zkYSNFEd62GYqEihjouA"/>
+        <element xmi:type="uml:Property" href="mmi:///#jfield%5Ename=testSuiteClass%5Bjsrctype%5Ename=LiTestTester%5Bjcu%5Ename=LiTestTester.java%5Bjpack%5Ename=hu.itkodex.litest.fitnesse.testcase.domain%5Bjsrcroot%5Esrcfolder=AcceptanceTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Property"/>
+      </children>
+      <children xmi:id="_A02AoCNFEd62GYqEihjouA" type="ATTRIBUTE_ITEM">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_A02AoSNFEd62GYqEihjouA" collapsed="true"/>
+        <element xmi:type="uml:Property" href="mmi:///#jfield%5Ename=testSuites%5Bjsrctype%5Ename=LiTestTester%5Bjcu%5Ename=LiTestTester.java%5Bjpack%5Ename=hu.itkodex.litest.fitnesse.testcase.domain%5Bjsrcroot%5Esrcfolder=AcceptanceTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Property"/>
+      </children>
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_AqLBsSNFEd62GYqEihjouA"/>
+    </children>
+    <children xmi:id="_AqOFACNFEd62GYqEihjouA" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_AqOsECNFEd62GYqEihjouA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_Anh9YSNFEd62GYqEihjouA" fontName="Segoe UI" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=LiTestTester%5Bjcu%5Ename=LiTestTester.java%5Bjpack%5Ename=hu.itkodex.litest.fitnesse.testcase.domain%5Bjsrcroot%5Esrcfolder=AcceptanceTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Anh9YiNFEd62GYqEihjouA" x="396" y="1320"/>
+  </children>
+  <children xmi:id="_sAUMUCNFEd62GYqEihjouA">
+    <children xmi:id="_sAUzYCNFEd62GYqEihjouA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sAUzYSNFEd62GYqEihjouA" width="530" height="530"/>
+    </children>
+    <children xmi:id="_sAUzYiNFEd62GYqEihjouA" type="Stereotype"/>
+    <children xmi:id="_sAVacCNFEd62GYqEihjouA" type="Kind"/>
+    <children xmi:id="_sAVacSNFEd62GYqEihjouA" type="Name"/>
+    <children xmi:id="_sAVaciNFEd62GYqEihjouA" type="Parent"/>
+    <children xmi:id="_sAVacyNFEd62GYqEihjouA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_sAVadCNFEd62GYqEihjouA"/>
+    </children>
+    <children xmi:id="_sAWBgCNFEd62GYqEihjouA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_sAWBgSNFEd62GYqEihjouA"/>
+    </children>
+    <children xmi:id="_sAWBgiNFEd62GYqEihjouA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_sAWBgyNFEd62GYqEihjouA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_sAUMUSNFEd62GYqEihjouA" fontName="Segoe UI" showStereotype="Label" useClassifierShape="true"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=ObjectTestSuite%5Bjcu%5Ename=ObjectTestSuite.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sAUMUiNFEd62GYqEihjouA" x="10560" y="2112"/>
+  </children>
+  <children xmi:id="_7pb5YCQNEd6XmP105sgeAA">
+    <children xmi:id="_7pdHgCQNEd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_7pdHgSQNEd6XmP105sgeAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_7pdHgiQNEd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="_7pdukCQNEd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="_7peVoCQNEd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="_7peVoSQNEd6XmP105sgeAA" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_7peVoiQNEd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_7pgx4CQNEd6XmP105sgeAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_7pgx4SQNEd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_7pjOICQNEd6XmP105sgeAA" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_7pjOISQNEd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_7pcgcCQNEd6XmP105sgeAA" fontName="Segoe UI" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=SuiteWithTransientFreshFixture%5Bjcu%5Ename=SuiteWithTransientFreshFixture.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7pcgcSQNEd6XmP105sgeAA" x="9240" y="14388"/>
+  </children>
+  <children xmi:id="__bB7sCQNEd6XmP105sgeAA">
+    <children xmi:id="__bCiwCQNEd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="__bDJ0CQNEd6XmP105sgeAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="__bDJ0SQNEd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="__bDJ0iQNEd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="__bDw4CQNEd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="__bDw4SQNEd6XmP105sgeAA" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="__bDw4iQNEd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="__bE_ACQNEd6XmP105sgeAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="__bE_ASQNEd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="__bFmECQNEd6XmP105sgeAA" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="__bFmESQNEd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="__bB7sSQNEd6XmP105sgeAA" fontName="Segoe UI" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=MockSuiteWithTransientFreshFixture%5Bjcu%5Ename=MockSuiteWithTransientFreshFixture.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=UnitTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__bB7siQNEd6XmP105sgeAA" x="396" y="15180"/>
+  </children>
+  <children xmi:id="_VxzJYCQOEd6XmP105sgeAA">
+    <children xmi:id="_VxzwcCQOEd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_VxzwcSQOEd6XmP105sgeAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_Vx0XgCQOEd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="_Vx0XgSQOEd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="_Vx0-kCQOEd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="_Vx0-kSQOEd6XmP105sgeAA" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_Vx0-kiQOEd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_Vx4o8CQOEd6XmP105sgeAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_Vx4o8SQOEd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_Vx4o8iQOEd6XmP105sgeAA" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_Vx4o8yQOEd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_VxzJYSQOEd6XmP105sgeAA" fontName="Segoe UI" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenericTestSuite%5Bjcu%5Ename=GenericTestSuite.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VxzJYiQOEd6XmP105sgeAA" x="8976" y="6600"/>
+  </children>
+  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_0AQ64SNEEd62GYqEihjouA"/>
+  <element xsi:nil="true"/>
+  <edges xmi:id="_sISckCNFEd62GYqEihjouA" source="_Anh9YCNFEd62GYqEihjouA" target="_sAUMUCNFEd62GYqEihjouA">
+    <children xmi:id="_sISckyNFEd62GYqEihjouA" type="KindLabel">
+      <children xmi:id="_sITDoCNFEd62GYqEihjouA" type="Stereotype"/>
+      <children xmi:id="_sITDoiNFEd62GYqEihjouA" type="Kind"/>
+      <children xmi:id="_sITDoSNFEd62GYqEihjouA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sISclCNFEd62GYqEihjouA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_sISckSNFEd62GYqEihjouA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=LiTestTester%5Bjcu%5Ename=LiTestTester.java%5Bjpack%5Ename=hu.itkodex.litest.fitnesse.testcase.domain%5Bjsrcroot%5Esrcfolder=AcceptanceTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ObjectTestSuite%5Bjcu%5Ename=ObjectTestSuite.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sISckiNFEd62GYqEihjouA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="__eXjkCQNEd6XmP105sgeAA" source="__bB7sCQNEd6XmP105sgeAA" target="_7pb5YCQNEd6XmP105sgeAA">
+    <children xmi:id="__eccECQNEd6XmP105sgeAA" type="NameLabel">
+      <children xmi:id="__eccEiQNEd6XmP105sgeAA" type="Stereotype"/>
+      <children xmi:id="__edDICQNEd6XmP105sgeAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__eccESQNEd6XmP105sgeAA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="__eXjkSQNEd6XmP105sgeAA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=MockSuiteWithTransientFreshFixture%5Bjcu%5Ename=MockSuiteWithTransientFreshFixture.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=UnitTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=SuiteWithTransientFreshFixture%5Bjcu%5Ename=SuiteWithTransientFreshFixture.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__eXjkiQNEd6XmP105sgeAA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_V5VUwCQOEd6XmP105sgeAA" source="_7pb5YCQNEd6XmP105sgeAA" target="_VxzJYCQOEd6XmP105sgeAA">
+    <children xmi:id="_V5V70CQOEd6XmP105sgeAA" type="NameLabel">
+      <children xmi:id="_V5V70iQOEd6XmP105sgeAA" type="Stereotype"/>
+      <children xmi:id="_V5V70yQOEd6XmP105sgeAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V5V70SQOEd6XmP105sgeAA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_V5VUwSQOEd6XmP105sgeAA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=SuiteWithTransientFreshFixture%5Bjcu%5Ename=SuiteWithTransientFreshFixture.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenericTestSuite%5Bjcu%5Ename=GenericTestSuite.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V5VUwiQOEd6XmP105sgeAA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_V5Wi4CQOEd6XmP105sgeAA" source="_VxzJYCQOEd6XmP105sgeAA" target="_sAUMUCNFEd62GYqEihjouA">
+    <children xmi:id="_V5Wi4yQOEd6XmP105sgeAA" type="NameLabel">
+      <children xmi:id="_V5XJ8CQOEd6XmP105sgeAA" type="Stereotype"/>
+      <children xmi:id="_V5XJ8SQOEd6XmP105sgeAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V5Wi5CQOEd6XmP105sgeAA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_V5Wi4SQOEd6XmP105sgeAA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:InterfaceRealization" href="mmi:///#jimpl%5Bjsrctype%5Ename=GenericTestSuite%5Bjcu%5Ename=GenericTestSuite.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ObjectTestSuite%5Bjcu%5Ename=ObjectTestSuite.java%5Bjpack%5Ename=hu.itkodex.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.InterfaceRealization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V5Wi4iQOEd6XmP105sgeAA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

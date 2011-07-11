@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="LiTest - Build" basedir=".." default="call-webtier-build">
+
+	<property name="domaintier.root" value="DomainTier" />
+	<property name="webtier.root" value="WebTier" />
+	
+	<property name="view.root.path" location="../../../../" />
+	<property name="common.build.path" value="${view.root.path}/ProcessPuzzle/Environment/ANT/Scripts" />
+	
+	<property file="local.build.properties" />
+	<property file="${common.build.path}/common.build.properties" />
+	
+	<property name="domaintier.build.dir" value="${domaintier.root}/${project.build.dir}" />
+	<property name="domaintier.build.file" value="${domaintier.build.dir}/build.xml" />
+
+	<target name="call-domaintier-build">
+		<ant dir="${domaintier.root}" antfile="${project.build.file}" inheritall="false">
+			<property name="project.root" location="${domaintier.root}" />
+			<property name="view.root.path" location="../../../../" />
+		</ant>
+	</target>
+
+	<target name="call-webtier-build" depends="call-domaintier-build">
+	</target>
+</project>

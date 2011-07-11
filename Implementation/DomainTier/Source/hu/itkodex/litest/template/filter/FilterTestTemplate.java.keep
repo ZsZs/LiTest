@@ -1,0 +1,29 @@
+package hu.itkodex.litest.template.filter;
+
+import hu.itkodex.commons.generics.GenericTypeParameterInvestigator;
+import hu.itkodex.litest.template.GenericTestTemplate;
+
+import javax.servlet.Filter;
+
+import org.junit.Before;
+
+import com.mockrunner.mock.web.WebMockObjectFactory;
+import com.mockrunner.servlet.ServletTestModule;
+
+public abstract class FilterTestTemplate<S extends Filter, F extends FilterTestFixture<S>> extends GenericTestTemplate<S,F,FilterTestEnvironment<S,F>>{
+   protected S filter;
+   protected ServletTestModule testModule;
+
+   protected FilterTestTemplate( String fixtureContainerConfigurationPath ) {
+      super( fixtureContainerConfigurationPath, FilterTestEnvironment.class );
+      // TODO Auto-generated constructor stub
+   }
+
+   @SuppressWarnings( "unchecked" )
+   @Before
+   public void beforeEachTests() throws Exception {
+      WebMockObjectFactory webMockObjectFactory = new WebMockObjectFactory();
+      testModule = new ServletTestModule( webMockObjectFactory );
+      filter = (S) testModule.createFilter( GenericTypeParameterInvestigator.getTypeParameter( this.getClass(), 0 ));
+   }
+}

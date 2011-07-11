@@ -1,0 +1,13 @@
+package hu.itkodex.litest.template.filter;
+
+import hu.itkodex.litest.template.GenericTemplatedFixture;
+
+import javax.servlet.Filter;
+
+public abstract class FilterTestFixture<S extends Filter> extends GenericTemplatedFixture<S>{
+
+   protected FilterTestFixture( FilterTestEnvironment<S, ?> testEnvironment ) {
+      super( testEnvironment );
+   }
+
+}
