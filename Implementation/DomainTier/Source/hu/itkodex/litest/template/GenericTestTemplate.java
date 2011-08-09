@@ -32,7 +32,7 @@ public abstract class GenericTestTemplate<S, F extends GenericTemplatedFixture<S
    @SuppressWarnings("unchecked") @Override
    public void beforeEachTest() {
       super.beforeEachTest();
-      templatedFixture = (F) ((MixedFixtureStrategy)fixtureStrategy).getStrategy( templatedFixtureClass ).getFixture();
+      templatedFixture = (F) ((MixedFixtureStrategy<?>)fixtureStrategy).getStrategy( templatedFixtureClass ).getFixture();
    }
 
    @SuppressWarnings("unchecked")
