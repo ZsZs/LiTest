@@ -11,7 +11,7 @@
 	<property file="${common.build.path}/common.build.properties" />
 
 	<path id="project.auxiliary.classpath">
-		<fileset dir="${distribution.base.path}/${processpuzzlecommons.component.distribution.dir}">
+		<fileset dir="${release.base.path}/${processpuzzlecommons.component.distribution.dir}">
 			<include name="${processpuzzlecommons.component.packaged.file}" />
 		</fileset>
 		
