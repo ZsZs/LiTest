@@ -74,6 +74,7 @@ public abstract class GenericCompositeFixture<S> extends GenericTestFixture<S> i
    protected void lazyInitialization() {
       if( !isInitialized ) {
          defineComponentTypes();
+         isInitialized = true;
       }
    }
 }
