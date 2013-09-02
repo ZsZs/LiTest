@@ -1,0 +1,18 @@
+package com.processpuzzle.litest.fixture;
+
+import com.processpuzzle.litest.fixture.GenericTestFixture;
+import com.processpuzzle.litest.fixture.TransientFreshFixture;
+import com.processpuzzle.litest.testcase.TestSUT;
+
+public class FitTestTransientFreshFixture extends GenericTestFixture<TestSUT> implements TransientFreshFixture<TestSUT>{
+
+   @Override protected TestSUT instantiateSUT() {
+      return new TestSUT();
+   }
+
+   @Override protected void configureAfterSutInstantiation() { }
+
+   @Override protected void configureBeforeSutInstantiation() { }
+
+   @Override protected void releaseResources() { }
+}

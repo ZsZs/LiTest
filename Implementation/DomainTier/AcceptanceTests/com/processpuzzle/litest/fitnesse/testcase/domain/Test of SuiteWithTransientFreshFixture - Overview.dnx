@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational modellező platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.2/Umlnotation" xmi:id="_inWYICQREd6XmP105sgeAA" type="Class" name="Test of SuiteWithTransientFreshFixture - Overview.dnx">
+  <eAnnotations xmi:id="_inWYIiQREd6XmP105sgeAA" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_inWYIyQREd6XmP105sgeAA" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:id="_mN_usCQREd6XmP105sgeAA" type="Text">
+    <children xmi:id="_mN_usSQREd6XmP105sgeAA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:id="_mN_usiQREd6XmP105sgeAA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_mN_usyQREd6XmP105sgeAA" fontColor="10485760" fontName="Comic Sans MS" fontHeight="12" bold="true" description="Test of SuiteWithTransientFreshFixture - Overview"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mN_utCQREd6XmP105sgeAA" x="264" y="264"/>
+  </children>
+  <children xmi:id="_qkyv0CQREd6XmP105sgeAA">
+    <children xmi:id="_qkzW4CQREd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_qkzW4SQREd6XmP105sgeAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_qkz98CQREd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="_qkz98SQREd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="_qk0lACQREd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="_qk0lASQREd6XmP105sgeAA" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_qk0lAiQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_qk0lAyQREd6XmP105sgeAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_qk0lBCQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_qk1MECQREd6XmP105sgeAA" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_qk1MESQREd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_qkyv0SQREd6XmP105sgeAA" fontName="Segoe UI" fillColor="10265827" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=MockSuiteWithTransientFreshFixture%5Bjcu%5Ename=MockSuiteWithTransientFreshFixture.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=UnitTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qkyv0iQREd6XmP105sgeAA" x="924" y="17292"/>
+  </children>
+  <children xmi:id="_sdzf4CQREd6XmP105sgeAA">
+    <children xmi:id="_sd0G8CQREd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sd0G8SQREd6XmP105sgeAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_sd0G8iQREd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="_sd0uACQREd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="_sd0uASQREd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="_sd0uAiQREd6XmP105sgeAA" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_sd0uAyQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_sd1VECQREd6XmP105sgeAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_sd1VESQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_sd1VEiQREd6XmP105sgeAA" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_sd1VEyQREd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_sdzf4SQREd6XmP105sgeAA" fontName="Segoe UI" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=SuiteWithTransientFreshFixture%5Bjcu%5Ename=SuiteWithTransientFreshFixture.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdzf4iQREd6XmP105sgeAA" x="1149" y="13596"/>
+  </children>
+  <children xmi:id="_zZPoACQREd6XmP105sgeAA">
+    <children xmi:id="_zZQPECQREd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_zZQPESQREd6XmP105sgeAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_zZQPEiQREd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="_zZQ2ICQREd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="_zZQ2ISQREd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="_zZRdMCQREd6XmP105sgeAA" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_zZRdMSQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_zZRdMiQREd6XmP105sgeAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_zZRdMyQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_zZSEQCQREd6XmP105sgeAA" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_zZSEQSQREd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_zZPoASQREd6XmP105sgeAA" fontName="Segoe UI" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenericTestSuite%5Bjcu%5Ename=GenericTestSuite.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zZPoAiQREd6XmP105sgeAA" x="660" y="5940"/>
+  </children>
+  <children xmi:id="_4kj2UCQREd6XmP105sgeAA">
+    <children xmi:id="_4kkdYCQREd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_4kkdYSQREd6XmP105sgeAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_4kkdYiQREd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="_4kkdYyQREd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="_4kkdZCQREd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="_4klEcCQREd6XmP105sgeAA" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4klEcSQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_4km5oCQREd6XmP105sgeAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4km5oSQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_4kngsCQREd6XmP105sgeAA" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4kngsSQREd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_4kj2USQREd6XmP105sgeAA" fontName="Segoe UI" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenericTypeParameterInvestigator%5Bjcu%5Ename=GenericTypeParameterInvestigator.java%5Bjpack%5Ename=com.processpuzzle.commons.generics%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=IT%20Codex%20Commons%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4kj2UiQREd6XmP105sgeAA" x="10824" y="12276"/>
+  </children>
+  <children xmi:id="_4kngsiQREd6XmP105sgeAA">
+    <children xmi:id="_4koHwCQREd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_4koHwSQREd6XmP105sgeAA" width="530" height="530"/>
+    </children>
+    <children xmi:id="_4koHwiQREd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="_4kou0CQREd6XmP105sgeAA" type="Kind"/>
+    <children xmi:id="_4kou0SQREd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="_4kou0iQREd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="_4kpV4CQREd6XmP105sgeAA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4kpV4SQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_4kpV4iQREd6XmP105sgeAA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4kpV4yQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_4kpV5CQREd6XmP105sgeAA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4kpV5SQREd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_4kngsyQREd6XmP105sgeAA" fontName="Segoe UI" showStereotype="Label" useClassifierShape="true"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=ObjectTestSuite%5Bjcu%5Ename=ObjectTestSuite.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4kngtCQREd6XmP105sgeAA" x="2244" y="1584"/>
+  </children>
+  <children xmi:id="_4kp88CQREd6XmP105sgeAA">
+    <children xmi:id="_4kqkACQREd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_4kqkASQREd6XmP105sgeAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_4kqkAiQREd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="_4krLECQREd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="_4krLESQREd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="_4krLEiQREd6XmP105sgeAA" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4krLEyQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_4kuOYCQREd6XmP105sgeAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4kuOYSQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_4kuOYiQREd6XmP105sgeAA" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4kuOYyQREd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_4kp88SQREd6XmP105sgeAA" fontName="Segoe UI" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=FixtureFactory%5Bjcu%5Ename=FixtureFactory.java%5Bjpack%5Ename=com.processpuzzle.litest.fixture%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4kp88iQREd6XmP105sgeAA" x="10164" y="1452"/>
+  </children>
+  <children xmi:id="_4ku1cCQREd6XmP105sgeAA">
+    <children xmi:id="_4ku1cyQREd6XmP105sgeAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_4ku1dCQREd6XmP105sgeAA" width="530" height="530"/>
+    </children>
+    <children xmi:id="_4kvcgCQREd6XmP105sgeAA" type="Stereotype"/>
+    <children xmi:id="_4kvcgSQREd6XmP105sgeAA" type="Kind"/>
+    <children xmi:id="_4kvcgiQREd6XmP105sgeAA" type="Name"/>
+    <children xmi:id="_4kvcgyQREd6XmP105sgeAA" type="Parent"/>
+    <children xmi:id="_4kwDkCQREd6XmP105sgeAA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4kwDkSQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_4kwDkiQREd6XmP105sgeAA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4kwDkyQREd6XmP105sgeAA"/>
+    </children>
+    <children xmi:id="_4kwqoCQREd6XmP105sgeAA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4kwqoSQREd6XmP105sgeAA"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_4ku1cSQREd6XmP105sgeAA" fontName="Segoe UI" showStereotype="Label" useClassifierShape="true"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=TestFixture%5Bjcu%5Ename=TestFixture.java%5Bjpack%5Ename=com.processpuzzle.litest.fixture%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ku1ciQREd6XmP105sgeAA" x="12408" y="7524"/>
+  </children>
+  <children xmi:id="_oNkewCZLEd6CJZRD5xnqTg">
+    <children xmi:id="_oNtosCZLEd6CJZRD5xnqTg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_oNtosSZLEd6CJZRD5xnqTg" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_oNuPwCZLEd6CJZRD5xnqTg" type="Stereotype"/>
+    <children xmi:id="_oNwsACZLEd6CJZRD5xnqTg" type="Name"/>
+    <children xmi:id="_oNxTECZLEd6CJZRD5xnqTg" type="Parent"/>
+    <children xmi:id="_oNxTESZLEd6CJZRD5xnqTg" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oNxTEiZLEd6CJZRD5xnqTg"/>
+    </children>
+    <children xmi:id="_oNzvUCZLEd6CJZRD5xnqTg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oNzvUSZLEd6CJZRD5xnqTg"/>
+    </children>
+    <children xmi:id="_oN1kgCZLEd6CJZRD5xnqTg" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oN1kgSZLEd6CJZRD5xnqTg"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_oNkewSZLEd6CJZRD5xnqTg" fontName="Segoe UI" fillColor="10011046" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TestSUT%5Bjcu%5Ename=TestSUT.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=UnitTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oNkewiZLEd6CJZRD5xnqTg" x="12408" y="21516"/>
+  </children>
+  <children xmi:id="_sGyzECZLEd6CJZRD5xnqTg">
+    <children xmi:id="_sGzaICZLEd6CJZRD5xnqTg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sGzaISZLEd6CJZRD5xnqTg" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_sGzaIiZLEd6CJZRD5xnqTg" type="Stereotype"/>
+    <children xmi:id="_sG0BMCZLEd6CJZRD5xnqTg" type="Name"/>
+    <children xmi:id="_sG0oQCZLEd6CJZRD5xnqTg" type="Parent"/>
+    <children xmi:id="_sG0oQSZLEd6CJZRD5xnqTg" visible="false" type="ANNOTATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_sG0oQiZLEd6CJZRD5xnqTg"/>
+    </children>
+    <children xmi:id="_sG2dcCZLEd6CJZRD5xnqTg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_sG2dcSZLEd6CJZRD5xnqTg"/>
+    </children>
+    <children xmi:id="_sG2dciZLEd6CJZRD5xnqTg" type="ANNOTATED_OPERATION_COMPARTMENT">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_sG2dcyZLEd6CJZRD5xnqTg"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_sGyzESZLEd6CJZRD5xnqTg" fontName="Segoe UI" fillColor="10011046" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TestTransientFreshFixture%5Bjcu%5Ename=TestTransientFreshFixture.java%5Bjpack%5Ename=com.processpuzzle.litest.fixture%5Bjsrcroot%5Esrcfolder=UnitTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGyzEiZLEd6CJZRD5xnqTg" x="10824" y="15576"/>
+  </children>
+  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_inWYISQREd6XmP105sgeAA"/>
+  <element xsi:nil="true"/>
+  <edges xmi:id="_sd4YYyQREd6XmP105sgeAA" source="_qkyv0CQREd6XmP105sgeAA" target="_sdzf4CQREd6XmP105sgeAA">
+    <children xmi:id="_sd4_cCQREd6XmP105sgeAA" type="NameLabel">
+      <children xmi:id="_sd4_ciQREd6XmP105sgeAA" type="Stereotype"/>
+      <children xmi:id="_sd4_cyQREd6XmP105sgeAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd4_cSQREd6XmP105sgeAA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_sd4YZCQREd6XmP105sgeAA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=MockSuiteWithTransientFreshFixture%5Bjcu%5Ename=MockSuiteWithTransientFreshFixture.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=UnitTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=SuiteWithTransientFreshFixture%5Bjcu%5Ename=SuiteWithTransientFreshFixture.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd4YZSQREd6XmP105sgeAA" points="[1, 0, 212, 2925]$[-84, -1179, 127, 1746]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_slFzoCQREd6XmP105sgeAA" id="(0.48865354,0.23629385)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_slFzoSQREd6XmP105sgeAA" id="(0.5109489,1.0)"/>
+  </edges>
+  <edges xmi:id="_zZSrUCQREd6XmP105sgeAA" source="_sdzf4CQREd6XmP105sgeAA" target="_zZPoACQREd6XmP105sgeAA">
+    <children xmi:id="_zZSrUyQREd6XmP105sgeAA" type="NameLabel">
+      <children xmi:id="_zZSrVSQREd6XmP105sgeAA" type="Stereotype"/>
+      <children xmi:id="_zZTSYCQREd6XmP105sgeAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zZSrVCQREd6XmP105sgeAA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_zZSrUSQREd6XmP105sgeAA" fontName="Segoe UI" routing="Rectilinear" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=SuiteWithTransientFreshFixture%5Bjcu%5Ename=SuiteWithTransientFreshFixture.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenericTestSuite%5Bjcu%5Ename=GenericTestSuite.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zZSrUiQREd6XmP105sgeAA" points="[-1117, -795, -1468, 6309]$[-1117, -1924, -1468, 5180]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zfuDcCQREd6XmP105sgeAA" id="(0.6811546,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zfuqgCQREd6XmP105sgeAA" id="(0.7062937,0.09638554)"/>
+  </edges>
+  <edges xmi:id="_4kxRsCQREd6XmP105sgeAA" source="_zZPoACQREd6XmP105sgeAA" target="_4kj2UCQREd6XmP105sgeAA">
+    <children xmi:id="_4kxRsyQREd6XmP105sgeAA" type="KindLabel">
+      <children xmi:id="_4kxRtSQREd6XmP105sgeAA" type="Stereotype"/>
+      <children xmi:id="_4kx4wSQREd6XmP105sgeAA" type="Kind"/>
+      <children xmi:id="_4kx4wCQREd6XmP105sgeAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4kxRtCQREd6XmP105sgeAA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_4kxRsSQREd6XmP105sgeAA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenericTestSuite%5Bjcu%5Ename=GenericTestSuite.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenericTypeParameterInvestigator%5Bjcu%5Ename=GenericTypeParameterInvestigator.java%5Bjpack%5Ename=com.processpuzzle.commons.generics%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=IT%20Codex%20Commons%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4kxRsiQREd6XmP105sgeAA" points="[-53, 0, 2987, -1586]$[-3040, 1586, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4uMTcSQREd6XmP105sgeAA" id="(0.99329245,0.8759036)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4uMTciQREd6XmP105sgeAA" id="(0.0075023444,0.58059704)"/>
+  </edges>
+  <edges xmi:id="_4kzG5CQREd6XmP105sgeAA" source="_zZPoACQREd6XmP105sgeAA" target="_4kp88CQREd6XmP105sgeAA">
+    <children xmi:id="_4kzt8iQREd6XmP105sgeAA" type="KindLabel">
+      <children xmi:id="_4kzt9CQREd6XmP105sgeAA" type="Stereotype"/>
+      <children xmi:id="_4k0VACQREd6XmP105sgeAA" type="Kind"/>
+      <children xmi:id="_4kzt9SQREd6XmP105sgeAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4kzt8yQREd6XmP105sgeAA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_4kzt8CQREd6XmP105sgeAA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenericTestSuite%5Bjcu%5Ename=GenericTestSuite.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=FixtureFactory%5Bjcu%5Ename=FixtureFactory.java%5Bjpack%5Ename=com.processpuzzle.litest.fixture%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4kzt8SQREd6XmP105sgeAA" points="[-80, 0, -3900, -1586]$[3820, 1586, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4uLsYSQREd6XmP105sgeAA" id="(0.80819184,0.12908778)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4uLsYiQREd6XmP105sgeAA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:id="_4k08ECQREd6XmP105sgeAA" source="_zZPoACQREd6XmP105sgeAA" target="_4kngsiQREd6XmP105sgeAA">
+    <children xmi:id="_4k1jICQREd6XmP105sgeAA" type="NameLabel">
+      <children xmi:id="_4k1jIiQREd6XmP105sgeAA" type="Stereotype"/>
+      <children xmi:id="_4k1jIyQREd6XmP105sgeAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4k1jISQREd6XmP105sgeAA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_4k08ESQREd6XmP105sgeAA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:InterfaceRealization" href="mmi:///#jimpl%5Bjsrctype%5Ename=GenericTestSuite%5Bjcu%5Ename=GenericTestSuite.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ObjectTestSuite%5Bjcu%5Ename=ObjectTestSuite.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.InterfaceRealization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4k08EiQREd6XmP105sgeAA" points="[-121, 0, -68, 1586]$[-121, -1586, -68, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4uKeQCQREd6XmP105sgeAA" id="(0.46838877,0.06523236)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4uKeQSQREd6XmP105sgeAA" id="(0.5184976,1.0)"/>
+  </edges>
+  <edges xmi:id="_4k2KMCQREd6XmP105sgeAA" source="_zZPoACQREd6XmP105sgeAA" target="_4ku1cCQREd6XmP105sgeAA">
+    <children xmi:id="_4k2KMyQREd6XmP105sgeAA" type="KindLabel">
+      <children xmi:id="_4k2xQCQREd6XmP105sgeAA" type="Stereotype"/>
+      <children xmi:id="_4k2xQiQREd6XmP105sgeAA" type="Kind"/>
+      <children xmi:id="_4k2xQSQREd6XmP105sgeAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4k2KNCQREd6XmP105sgeAA" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_4k2KMSQREd6XmP105sgeAA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenericTestSuite%5Bjcu%5Ename=GenericTestSuite.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TestFixture%5Bjcu%5Ename=TestFixture.java%5Bjpack%5Ename=com.processpuzzle.litest.fixture%5Bjsrcroot%5Esrcfolder=Source%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4k2KMiQREd6XmP105sgeAA" points="[-107, 0, -10047, -1586]$[9873, 1586, -67, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4uLsYyQREd6XmP105sgeAA" id="(0.997003,0.49328744)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4uMTcCQREd6XmP105sgeAA" id="(0.016118633,0.40468228)"/>
+  </edges>
+  <edges xmi:id="_sLQcUCZLEd6CJZRD5xnqTg" source="_sGyzECZLEd6CJZRD5xnqTg" target="_oNkewCZLEd6CJZRD5xnqTg">
+    <children xmi:id="_sLSRgCZLEd6CJZRD5xnqTg" type="KindLabel">
+      <children xmi:id="_sLS4kCZLEd6CJZRD5xnqTg" type="Stereotype"/>
+      <children xmi:id="_sLS4kiZLEd6CJZRD5xnqTg" type="Kind"/>
+      <children xmi:id="_sLS4kSZLEd6CJZRD5xnqTg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLSRgSZLEd6CJZRD5xnqTg" y="-186"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_sLQcUSZLEd6CJZRD5xnqTg" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=TestTransientFreshFixture%5Bjcu%5Ename=TestTransientFreshFixture.java%5Bjpack%5Ename=com.processpuzzle.litest.fixture%5Bjsrcroot%5Esrcfolder=UnitTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TestSUT%5Bjcu%5Ename=TestSUT.java%5Bjpack%5Ename=com.processpuzzle.litest.testcase%5Bjsrcroot%5Esrcfolder=UnitTests%5Bproject%5Eid=LiTest%20Domain%20Tier%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sLQcUiZLEd6CJZRD5xnqTg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

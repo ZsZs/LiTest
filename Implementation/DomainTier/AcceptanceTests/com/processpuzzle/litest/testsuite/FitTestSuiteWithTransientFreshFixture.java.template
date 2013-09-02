@@ -1,0 +1,24 @@
+package com.processpuzzle.litest.testsuite;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.hamcrest.Matchers.*;
+import com.processpuzzle.litest.fixture.FitTestTransientFreshFixture;
+import com.processpuzzle.litest.testcase.GenericTestSuite;
+import com.processpuzzle.litest.testcase.TestSUT;
+
+public class FitTestSuiteWithTransientFreshFixture extends GenericTestSuite<TestSUT, FitTestTransientFreshFixture> {
+   private static final String FIXTURE_CONTAINER_PATH = null;
+
+   public FitTestSuiteWithTransientFreshFixture() {
+      super( FIXTURE_CONTAINER_PATH );
+   }
+
+   @Test public void methodOneToExcercise_ShouldReturnHello() {
+      assertThat( sut.methodOneToExcercise(), equalTo( "Hello" ));
+   }
+
+   @Test public void methodTwoToExcercise_ShouldReturnWorld() {
+      assertThat( sut.methodTwoToExcercise(), equalTo( "world!" ));
+   }
+}

@@ -1,0 +1,24 @@
+package com.processpuzzle.litest.fitnesse;
+
+<<import>>
+import java.util.Map;
+import org.apache.log4j.Logger;
+import static org.hamcrest.Matchers.*;
+import static org.junit.Assert.assertThat;
+
+import com.processpuzzle.litest.fixture.*;
+
+public class FitNesseAssertionWrapper implements FitNesseAssertion<<<type>>> {
+   private static final Logger logger = Logger.getLogger( FitNesseAssertion.class );
+
+   public boolean evaluateAssert( Map<String, <<type>>> variables, String variableName ) {
+      <<type>> <<variable>> = variables.get( variableName );
+      try{
+         assertThat( <<subject>>, <<macher>> );
+      }catch( AssertionError e ){
+         logger.error( e.getMessage() );
+         return false;
+      }
+      return true;
+   }
+}
