@@ -22,7 +22,7 @@ public class JavaScriptTesterTest {
    protected static final String GLOBAL_VARIABLE = "globalVariable";
    protected static final String JAVASCRIPT_FRAGMENT = "<script type='text/javascript'>" + GLOBAL_VARIABLE + "=2</script>";
    protected static final String HTML_FRAGMENT = "<div id=\"widgetContainer\">\r\n  <div id=\"parent\">\r\n  </div>\r\n</div>\r\n";
-   protected static final String HTML_TEST_PAGE = "hu/itkodex/litest/fitnesse/TestbedPage.html";
+   protected static final String HTML_TEST_PAGE = "com/processpuzzle/litest/fitnesse/TestbedPage.html";
    protected JavaScriptTester javaScriptTester;
 
    @Before

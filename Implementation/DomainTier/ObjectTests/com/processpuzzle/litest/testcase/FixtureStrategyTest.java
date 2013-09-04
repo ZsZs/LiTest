@@ -16,7 +16,7 @@ import com.processpuzzle.litest.testcase.NoSuchFixtureDefinitionException;
 import com.processpuzzle.litest.testcase.ObjectTestSuite;
 
 public class FixtureStrategyTest {
-   private static final String containerConfigurationPath = "classpath:hu/itkodex/litest/testcase/fixtures.xml";
+   private static final String containerConfigurationPath = "classpath:com/processpuzzle/litest/testcase/fixtures.xml";
    private static final String FIXTURE_NAME = "testPersistentSharedFixture";
    
    

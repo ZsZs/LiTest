@@ -20,7 +20,7 @@ import com.processpuzzle.litest.testcase.GenericTestSuite;
 import com.processpuzzle.litest.testcase.NoSuchFixtureDefinitionException;
 
 public class GenericTestSuiteTest {
-   private static final String containerConfigurationPath = "classpath:hu/itkodex/litest/testcase/fixtures.xml";
+   private static final String containerConfigurationPath = "classpath:com/processpuzzle/litest/testcase/fixtures.xml";
    private static final String FIXTURE_BEAN_NAME = "testTransientFreshFixture";
    private static final String NONEXISTING_FIXTURE_BEAN_NAME = "blabla";
    private MockSuiteWitPersistentSharedFixture testSuite;
