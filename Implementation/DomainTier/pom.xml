@@ -70,4 +70,11 @@
 		</plugins>
 	</build>
 
+   <distributionManagement>
+      <repository>
+	      <id>sonatype-nexus-snapshots</id>
+	      <name>Nexus Snapshot Repository</name>
+	      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+	    </repository>
+   </distributionManagement>
 </project>
