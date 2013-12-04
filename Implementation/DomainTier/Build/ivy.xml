@@ -2,9 +2,9 @@
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
        
-    <info organisation="com.processpuzzle" module="processpuzzle-litest" status="integration" />
+   <info organisation="${project.name}" module="${component.name}" revision="${component.version}" status="integration"/>
 
     <dependencies>
-		<dependency org="com.ibm.icu" name="processpuzzle-commons" rev="latest.integration"/>
+		<dependency org="ProcessPuzzleCommons" name="ProcessPuzzleCommons-DomainLogic" rev="latest.integration"/>
 	</dependencies>
 </ivy-module>
