@@ -7,6 +7,7 @@ import java.net.MalformedURLException;
 import org.dom4j.DocumentException;
 
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
+import com.gargoylesoftware.htmlunit.javascript.host.HTMLElement;
 import com.processpuzzle.commons.xml.XmlDocumentComparator;
 
 public class BrowserWidgetTester extends JavaScriptTester {
@@ -28,7 +29,7 @@ public class BrowserWidgetTester extends JavaScriptTester {
    }
    
    public Boolean expectedElement( String expectedElement ) throws IOException, DocumentException {
-      String elementAsText = ((com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement)invocationResult.getJavaScriptResult()).jsxGet_outerHTML();
+      String elementAsText = ((HTMLElement)invocationResult.getJavaScriptResult()).jsxGet_outerHTML();
       return XmlDocumentComparator.compareGeneratedDocumentToExpectedDocument( elementAsText, expectedElement );
    }
    
