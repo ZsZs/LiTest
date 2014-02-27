@@ -13,5 +13,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=LiTest+-+Domain+Tier&amp;ivyXmlPath=Build%2Fivy.xml&amp;confs=*&amp;ivySettingsPath=Build%2Fivysettings.xml&amp;loadSettingsOnDemand=false&amp;ivyUserDir=&amp;propertyFiles="/>
+	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=LiTest+-+Domain+Tier&amp;ivyXmlPath=Build%2Fivysettings.xml&amp;confs=*"/>
+	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=LiTest+-+Domain+Tier&amp;ivyXmlPath=Build%2Fivy.xml&amp;confs=*"/>
 	<classpathentry kind="output" path="Binaries"/>
 </classpath>

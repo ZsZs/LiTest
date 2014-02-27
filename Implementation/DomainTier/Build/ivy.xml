@@ -3,9 +3,14 @@
        
    <info organisation="${project.name}" module="${component.name}" revision="${component.version}" status="integration"/>
 
+   <configurations>
+      <conf name="development" description="Libraries needed for testing." />
+      <conf name="production" description="Libraries needed in production environment." />
+   </configurations>
+   	
     <dependencies>
-    	<dependency org="com.processpuzzle" name="processpuzzle-commons-domain" rev="0.1.0-SNAPSHOT"/>
-        <dependency org="net.sourceforge.htmlunit" name="htmlunit" rev="2.4"/>
-        <dependency org="org.springframework" name="spring-context" rev="3.2.6.RELEASE"/>
+    	<dependency org="com.processpuzzle" name="processpuzzle-commons-domain" rev="0.1.0" conf="production->*,!sources,!javadoc"/>
+        <dependency org="net.sourceforge.htmlunit" name="htmlunit" rev="2.4" conf="development->*,!sources,!javadoc"/>
+        <dependency org="org.springframework" name="spring-context" rev="3.2.6.RELEASE" conf="production->*,!sources,!javadoc"/>
 	</dependencies>
 </ivy-module>
