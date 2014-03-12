@@ -41,12 +41,14 @@
 			<groupId>com.processpuzzle</groupId>
 			<artifactId>processpuzzle-commons</artifactId>
 			<version>0.1.0-SNAPSHOT</version>
+			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>net.sourceforge.htmlunit</groupId>
 			<artifactId>htmlunit</artifactId>
 			<version>2.4</version>
+			<scope>compile</scope>
 		</dependency>
 
 	</dependencies>
