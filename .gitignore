@@ -1,6 +1,6 @@
 /Deployment/Distribution/
 /Implementation/Build/local.build.properties
-/Implementation/Build/Logs/ProcessPuzzle.log
+/Implementation/Build/Logs/
 /Implementation/DomainTier/Binaries/
 /Implementation/DomainTier/Build/Binaries
 /Implementation/DomainTier/Build/Distribution
