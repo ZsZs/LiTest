@@ -24,6 +24,7 @@ public class BrowserWidgetTester extends JavaScriptTester {
    }
    
    public Boolean expectedContainer( String expectedContainerContent ) throws IOException, DocumentException {
+      lazyInit();
       String currentContainerContent = testPage.getElementById( widgetContainerId ).asXml();
       return XmlDocumentComparator.compareGeneratedDocumentToExpectedDocument( currentContainerContent, expectedContainerContent );
    }
