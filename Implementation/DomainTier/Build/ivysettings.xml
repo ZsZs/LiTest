@@ -5,9 +5,4 @@
     <settings defaultResolver="resolver.chain" />
     <include file="${common.build.path}/ivysettings-common.xml" />
 
-<!--	
-	<modules>
-		<module organisation="com.processpuzzle" name="ProcessPuzzleCommons-DomainLogic" resolver="projects"/>
-	</modules>
--->
 </ivysettings>
