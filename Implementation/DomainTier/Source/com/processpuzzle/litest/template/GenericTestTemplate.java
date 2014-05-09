@@ -17,7 +17,7 @@ public abstract class GenericTestTemplate<S, F extends GenericTemplatedFixture<S
    protected Class<F> templatedFixtureClass;
 
    @SuppressWarnings("unchecked")
-   protected GenericTestTemplate( String fixtureContainerConfigurationPath, Class<? extends TestFixture> testEnvironmentClass ) {
+   protected GenericTestTemplate( String fixtureContainerConfigurationPath, Class<? extends TestFixture<?>> testEnvironmentClass ) {
       super( fixtureContainerConfigurationPath, testEnvironmentClass );
       templatedFixtureClass = (Class<F>) GenericTypeParameterInvestigator.getTypeParameter( getClass(), 1 );
       //this.testEnvironmentClass = (Class<E>) GenericTypeParameterInvestigator.getTypeParameter( getClass(), 2 );

@@ -20,7 +20,7 @@ public class FixtureStrategyFactory {
       soleInstance = null;
    }
 
-   @SuppressWarnings("unchecked")
+   @SuppressWarnings({ "unchecked", "rawtypes" })
    public <F extends TestFixture<?>> FixtureStrategy<F> createFixtureStrategy( Class<? extends TestFixture<?>> fixtureClass, ObjectTestSuite<?, F> testSuite ) {
       FixtureStrategy<F> strategy = null;
 

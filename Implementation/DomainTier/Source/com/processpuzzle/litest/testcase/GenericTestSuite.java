@@ -36,7 +36,7 @@ public abstract class GenericTestSuite<S, F extends TestFixture<S>> implements O
       this( fixtureContainerConfigurationPath, null );
    }
    
-   @SuppressWarnings("unchecked") protected GenericTestSuite( String fixtureContainerConfigurationPath, Class<? extends TestFixture> fixtureClass ) {
+   @SuppressWarnings("unchecked") protected GenericTestSuite( String fixtureContainerConfigurationPath, Class<? extends TestFixture<?>> fixtureClass ) {
       sutClass = (Class<S>) GenericTypeParameterInvestigator.getTypeParameter( this.getClass(), 0 );
       
       if( fixtureClass == null ) this.fixtureClass = (Class<F>) GenericTypeParameterInvestigator.getTypeParameter( this.getClass(), 1 );
