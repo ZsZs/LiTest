@@ -1,9 +1,0 @@
-!include -c <LiTest.DomainLogic.FitNesseHelpers.LoggingConfigurator
-
-|Import|
-|hu.itkodex.commons.fitnesse.generics.domain|
-|hu.itkodex.litest.fitnesse|
-|hu.itkodex.litest.fitnesse.testcase.domain|
-
-|'''add'''|!-hu.itkodex.litest.fitnesse.testcase.domain.LiTestTester-!|'''as'''|litester|
-|select|litester|

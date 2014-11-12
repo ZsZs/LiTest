@@ -1,4 +1,0 @@
-Factory Test package defines a specialized implementation of !-ObjectTestSuite-! which uses a semi preconfigured fixture. This semi configured composite fixture has a predefined (compile time defined) part to set up the application environment and one custom part for the particular factory.
-!** Factory Test Package - Overview
-!img http://test.itkodex.hu/files/ITCodex/LiTest/Images/DesignModel_FactoryTestTemplateOverview.gif
-**!

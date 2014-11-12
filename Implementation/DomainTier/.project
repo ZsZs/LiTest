@@ -34,14 +34,4 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.apache.ivyde.eclipse.ivynature</nature>
 	</natures>
-	<filteredResources>
-		<filter>
-			<id>1415634460656</id>
-			<name>Build</name>
-			<type>30</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-			</matcher>
-		</filter>
-	</filteredResources>
 </projectDescription>

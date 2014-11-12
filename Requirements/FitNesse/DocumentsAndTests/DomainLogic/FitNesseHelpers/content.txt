@@ -1,1 +1,0 @@
- * [[Logging configurator][^LoggingConfigurator]] - Fixture to facilitate log4j configuration.

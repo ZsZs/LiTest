@@ -1,6 +1,0 @@
-Repository Test package defines a specialized implementation of ObjectTestSuite whic uses a semi preconfigured fixture.
-This semi configured composite fixture has a predefined - compile time defined - part to set up the application environment
-and one custom part for the particular repository.
-!** Repository Test Package - Overview
-!img http://test.itkodex.hu/files/ITCodex/LiTest/Images/DesignModel_RepositoryTestTemplateOverview.gif
-**!
