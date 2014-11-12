@@ -21,7 +21,7 @@ import fitlibrary.DoFixture;
 
 public class LiTestTester extends DoFixture {
    private static final Logger logger = LoggerFactory.getLogger( LiTestTester.class );
-   private static final List<String> COMPILER_OPTIONS = Arrays.asList( new String[] { "-target", "1.6" } );
+   private static final List<String> COMPILER_OPTIONS = Arrays.asList( new String[] { "-target", "1.7" } );
    @SuppressWarnings("unused")
    private Class<? extends TestFixture<?>> fixtureClass;
    private ObjectTestSuite<?,?> testSuite;

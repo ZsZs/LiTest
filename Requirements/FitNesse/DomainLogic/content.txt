@@ -1,0 +1,36 @@
+!-LiTest-! domain tier components:
+ * [[Test cases][>TestCasePackage]] - generic test cases to formulize the set up, tear down of test fixtures.
+ * [[Test fixtures][^TestFixture]] - generic test fixtures according to the different [[fixture strategies][http://xunitpatterns.com/TestStrategy.html]]
+ * [[!-FitNesse-! test helpers][^FitNesseHelpers]] - !-FitNesse-! fixtures to help writing business critical acceptance tests.
+ * [[Domain Object Test Suite][^DomainObjectTestSuite]] - Convenient test suite to simplify and standardize testing of domain objects.
+ * [[Factory Test Suite][^FactoryTestSuite]] - Convenient test suite to simplify and standadize testing of entity factories.
+ * [[Repository Test Suite][^RepositoryTestSuite]] - Convenient test suite to simplify and standardize testing of repositories.
+
+!** !-LiTest-! Domain Logic Overview
+!img http://test.itkodex.hu/files/ITCodex/LiTest/Images/DesignModel_ImplementationPackagesOverview.gif
+**!
+
+!***> Project specific test runner
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+***!
+
+!***> Project specific class path
+'''!-LiTest-! compiled classes:'''
+!path ${ViewPath}\ITKodex\Projects\LiTest\Implementation\DomainTier\${InstrumentedClasses}
+!path ${ViewPath}\ITKodex\Projects\LiTest\Implementation\DomainTier\${CompiledClasses}
+!path ${ViewPath}\ITKodex\Projects\LiTest\Implementation\DomainTier\${CompiledTestClasses}
+
+'''Dependent libraries'''
+!path ${ViewPath}\${COMMONS_DISTRIBUTION_DIR}\${COMMONS_DOMAIN_LOGIC_JAR}
+
+!path ${ViewPath}\${PRODUCTION_LIBRARIES_DIR}\Apache Commons\*.jar
+!path ${ViewPath}\${PRODUCTION_LIBRARIES_DIR}\Hamcrest\*.jar
+!path ${ViewPath}\${PRODUCTION_LIBRARIES_DIR}\Log4J\*.jar
+!path ${ViewPath}\${PRODUCTION_LIBRARIES_DIR}\SLF4J\*.jar
+!path ${ViewPath}\${PRODUCTION_LIBRARIES_DIR}\Spring\*.jar
+
+!path ${ViewPath}\${DEVELOPMENT_LIBRARIES_DIR}\JUnit\*.jar
+
+'''tools.jar needed for Java Compiler API'''
+!path ${JavaHome}\lib\tools.jar
+***!
