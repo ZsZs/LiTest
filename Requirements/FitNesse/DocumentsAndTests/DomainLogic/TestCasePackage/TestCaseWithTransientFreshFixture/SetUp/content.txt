@@ -1,0 +1,9 @@
+!include -c <LiTest.DomainLogic.FitNesseHelpers.LoggingConfigurator
+
+|Import|
+|com.processpuzzle.commons.fitnesse.generics.domain|
+|com.processpuzzle.litest.fitnesse|
+|com.processpuzzle.litest.fitnesse.testcase.domain|
+
+|'''add'''|!-com.processpuzzle.litest.fitnesse.testcase.domain.LiTestTester-!|'''as'''|litester|
+|select|litester|

@@ -23,7 +23,7 @@ public class FitNesseAssertEvaluator<T> {
    private static final String OBJECT_PLACEHOLDER = "<<subject>>";
    private static final String SOURCE_CODE_FILE = "FitNesseAssertionWrapper.java.template";
    private static final Logger logger = LoggerFactory.getLogger(  FitNesseAssertEvaluator.class );
-   private static final List<String> COMPILER_OPTIONS = Arrays.asList( new String[] { "-target", "1.5" } );
+   private static final List<String> COMPILER_OPTIONS = Arrays.asList( new String[] { "-target", "1.7" } );
    private String sourceCodeTemplate;
    private StringCompiler<FitNesseAssertion<T>> compiler;
    private FitNesseAssertion<T> assertion;

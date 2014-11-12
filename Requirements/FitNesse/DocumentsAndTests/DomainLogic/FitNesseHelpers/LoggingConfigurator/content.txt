@@ -1,0 +1,40 @@
+|'''add'''|com.processpuzzle.litest.fitnesse.!-LoggingConfigurator-!|'''as'''|loggingConfigurator|
+
+|Import|
+|com.processpuzzle.fitnesse.configuration|
+
+Here you can configure [[!-Log4J-!][http://logging.apache.org/log4j/1.2/index.html]] loggers, appenders and layouts.
+Please note that it is advisable to '''not''' configure none fitnesse related fixture loggers here, as other part's loggers of your software are configure elsewere other way.
+
+!3 Create loggers
+Here you can create any number of loggers.
+|'''create logger'''|com.processpuzzle.fitnesse|
+|'''create logger'''|hu.itkodex.commons|
+|'''create logger'''|hu.itkodex.litest|
+
+!3 Create layout
+|'''create pattern layout'''|simple layout|'''with format'''|%d{yyyy MMM dd HH:mm:ss} %p %t %c{3} - %m%n|
+
+!3 Create appenders
+Please note that you can select from appender implementations [[found here.][http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/Appender.html]]
+
+|'''create appender'''|console appender|'''of type'''|!-ConsoleAppender-!|'''with layout'''|simple layout|
+
+!3 Put all together
+|'''add appender'''|console appender|'''to logger'''|com.processpuzzle.fitnesse|
+|'''set logging level'''|DEBUG|'''for logger'''|com.processpuzzle.fitnesse|
+
+|'''add appender'''|console appender|'''to logger'''|hu.itkodex.commons|
+|'''set logging level'''|TRACE|'''for logger'''|hu.itkodex.commons|
+
+|'''add appender'''|console appender|'''to logger'''|hu.itkodex.litest|
+|'''set logging level'''|TRACE|'''for logger'''|hu.itkodex.litest|
+
+#|'''add appender'''|console appender|'''to root logger'''|
+#|'''set root logger level'''|INFO|
+
+Check to how it works:
+|'''check logger'''|com.processpuzzle.fitnesse|'''with message'''|Hello world!|'''of level'''|DEBUG|
+|'''check logger'''|hu.itkodex.commons|'''with message'''|Hello world!|'''of level'''|TRACE|
+|'''check logger'''|hu.itkodex.litest|'''with message'''|Hello world!|'''of level'''|TRACE|
+

@@ -1,0 +1,9 @@
+Test Case package standardize and formalize writing test cases. !-ObjectTestSuite's-! major feature is to rigorously apply choosen [[fixture handling strategy][http://xunitpatterns.com/TestStrategy.html]] throughout a test suite. !-ObjectTestCase-! helps to clearly distinguish between the four phases when writing test cases.
+ * [[Object test suite][>TestCaseWithTransientFreshFixture]] - is responsible for appropriate fixture instantiation and and running test cases.
+ * [[Object test case][>TestCaseWithTransientFreshFixture]] - is reponsible for performing the four phases of a test case.
+
+!** Test Case intefaces and implementations - Overview
+!img http://test.itkodex.hu/files/ITCodex/LiTest/Images/DesignModel_TestCaseInterfacesOverview.gif
+!img http://test.itkodex.hu/files/ITCodex/LiTest/Images/DesignModel_TestSuiteImplementationsOverview.gif
+!img http://test.itkodex.hu/files/ITCodex/LiTest/Images/DesignModel_TestCaseImplementationsOverview.gif
+**!
