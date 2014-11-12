@@ -1,0 +1,5 @@
+!3 !-LiTest-! Product Backlog
+
+|'''User Story'''|'''Story Point'''|'''Priority'''|'''Iteration'''|'''Acceptance Tests'''|
+|The system knows about Product|5|M| - |[[Tests][AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCatalog]]|
+|... knows about Product Instance|3|M| - |[[Tests][AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.CatalogEntry]]|
