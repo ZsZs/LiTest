@@ -40,7 +40,7 @@
 		<dependency>
 			<groupId>com.processpuzzle</groupId>
 			<artifactId>processpuzzle-commons</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<version>0.1.0-RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
 

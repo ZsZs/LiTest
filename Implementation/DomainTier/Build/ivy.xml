@@ -9,7 +9,7 @@
    </configurations>
 
    <dependencies>
-      <dependency org="com.processpuzzle" name="processpuzzle-commons-domain" rev="0.1.0" conf="production->*,!sources,!javadoc" />
+      <dependency org="com.processpuzzle" name="processpuzzle-commons-domain" rev="0.1.0-RELEASE" conf="production->*,!sources,!javadoc" />
       <dependency org="net.sourceforge.htmlunit" name="htmlunit" rev="2.4" conf="production->*,!sources,!javadoc" />
       <dependency org="org.springframework" name="spring-context" rev="3.2.6.RELEASE" conf="production->*,!sources,!javadoc" />
    </dependencies>
