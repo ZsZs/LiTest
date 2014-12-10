@@ -39,8 +39,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.processpuzzle</groupId>
-			<artifactId>processpuzzle-commons</artifactId>
-			<version>0.1.0-RELEASE</version>
+			<artifactId>processpuzzle-commons-domain</artifactId>
+			<version>0.1.1-RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
 
