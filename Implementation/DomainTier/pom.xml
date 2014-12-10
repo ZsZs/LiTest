@@ -7,7 +7,7 @@
 
 	<groupId>com.processpuzzle</groupId>
 	<artifactId>processpuzzle-litest-domain</artifactId>
-	<version>0.3.0-SNAPSHOT</version>
+	<version>0.3.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>LiTest</name>
 	<description>Facilitates more consistent object testing, influenced by Gerard Meszaros: xUnit Patterns</description>
