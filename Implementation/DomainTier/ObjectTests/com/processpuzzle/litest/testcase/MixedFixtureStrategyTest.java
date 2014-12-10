@@ -1,11 +1,13 @@
 package com.processpuzzle.litest.testcase;
 
 import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.hasKey;
 import static org.hamcrest.Matchers.instanceOf;
 import static org.hamcrest.Matchers.notNullValue;
 import static org.junit.Assert.assertThat;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 import java.util.List;
 
@@ -23,13 +25,6 @@ import com.processpuzzle.litest.fixture.TestFixture;
 import com.processpuzzle.litest.fixture.TestPersistentSharedFixture;
 import com.processpuzzle.litest.fixture.TestTransientFreshFixture;
 import com.processpuzzle.litest.fixture.TransientFreshFixture;
-import com.processpuzzle.litest.testcase.FixtureStrategyFactory;
-import com.processpuzzle.litest.testcase.GenericTestSuite;
-import com.processpuzzle.litest.testcase.MixedFixtureStrategy;
-import com.processpuzzle.litest.testcase.NoSuchFixtureDefinitionException;
-import com.processpuzzle.litest.testcase.ObjectTestSuite;
-import com.processpuzzle.litest.testcase.PersistentSharedFixtureStrategy;
-import com.processpuzzle.litest.testcase.TransientFreshFixtureStrategy;
 
 public class MixedFixtureStrategyTest {
    private ObjectTestSuite<?, TestCompositeFixture> testSuite;
@@ -122,13 +117,15 @@ public class MixedFixtureStrategyTest {
    //Protected, private helper methods
    @SuppressWarnings("unchecked")
    private void setUpCompositeFixture() {
-      TransientFreshFixture mockTransientFreshFixture;
-      PersistentSharedFixture mockPersistentSharedFixture;
+      TransientFreshFixture<?> mockTransientFreshFixture;
+      PersistentSharedFixture<?> mockPersistentSharedFixture;
+      @SuppressWarnings( "rawtypes" )
       CompositeFixture mockCompositeFixture;
       
       mockTransientFreshFixture = mock( TransientFreshFixture.class );
       mockPersistentSharedFixture = mock( PersistentSharedFixture.class );
       mockCompositeFixture = mock( GenericCompositeFixture.class );
+      @SuppressWarnings( "rawtypes" )
       List<Class<? extends TestFixture>> componentTypes = ImmutableList.of( TransientFreshFixture.class, PersistentSharedFixture.class );
       when( mockCompositeFixture.getComponentTypes() ).thenReturn( componentTypes );
       when( mockCompositeFixture.getFixture( TransientFreshFixture.class )).thenReturn( mockTransientFreshFixture );
